@@ -1,2 +1,4 @@
 __pycache__/*
 bechallenge_backend/__pycache__/
+
+bechallenge_backend/tasks/__pycache__/
