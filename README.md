@@ -16,18 +16,19 @@ Rotas disponíveis nesta API:
 
 `DELETE: http://127.0.0.1/api/tasks/<id>` (Esta rota está responsável por deletar por completo a tarefa com ID enviado)
 
-## Parâmetros
+#Parâmetros
 
 Para realizar requisições, o formato de envio deve seguir o modelo abaixo:
 
-`
+```bash
+
 {
     "name": "<nome_da_tarefa>",
     "description": "<descrição da tarefa>",
     "status": <true ou false>
 }
 
-`
+```
 
 # Compilando e executando o back-end
 
@@ -53,19 +54,20 @@ $ python3 manage.py runserver
 
 No arquivo `settings.py`, localizado dentro de "bechallenge_backend", procure por:
 
-`
+```bash
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'bechallenge',
         'USER': 'app',
-        'PASSWORD': 'beanalyctic',
+        'PASSWORD': 'beanalytic',
         'HOST': 'localhost',
         'PORT': '',
     }
 }
 
-`
+```
 
 E realize as alterações para que a API rode e se conecte com o banco de dados pré-estabelecido.
 
