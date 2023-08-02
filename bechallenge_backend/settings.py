@@ -80,9 +80,9 @@ WSGI_APPLICATION = 'bechallenge_backend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'bechallenge',
-        'USER': 'app',
-        'PASSWORD': 'beanalyctic',
+        'NAME': 'postgres',
+        'USER': 'postgres',
+        'PASSWORD': 'postgres',
         'HOST': 'db',
         'PORT': '5432',
     }
