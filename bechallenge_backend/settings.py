@@ -83,8 +83,8 @@ DATABASES = {
         'NAME': 'bechallenge',
         'USER': 'app',
         'PASSWORD': 'beanalyctic',
-        'HOST': 'localhost',
-        'PORT': '',
+        'HOST': 'db',
+        'PORT': '5432',
     }
 }
 
